@@ -1,2 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Libre+Baskerville&family=Montserrat:wght@100&display=swap');
 
+*{
+    background-color: #DAD7CD;
+    color: #344E41;
+    margin: 0px;
+}
+
+.header {
+    background-color: #344E41;
+    color: #DAD7CD;
+    display: flex;
+    height: 64px;
+    margin: 0px;
+    padding: 24px;
+}
+
+.title {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 32px;
+    background-color: #344E41;
+    color: #DAD7CD;
+    flex-grow: 2;
+}
+
+.links {
+    display: flex;
+    background-color: #344E41;
+    color: #DAD7CD;
+    list-style: none;
+    gap: 16px;
+    justify-content: space-evenly;
+}
+
+.header-link {
+    background-color: #344E41;
+    color: #DAD7CD;
+    text-decoration: none;
+}
+
+.basic {
+
+}
+
+.pictures {
+
+}
+
+.directions {
+
+}
+
+.brunch {
+
+}
+
+.footer {
+
+}
