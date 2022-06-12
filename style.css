@@ -51,13 +51,20 @@ body {
 
 a {
     text-decoration: none;
-    font-family: font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
     color: #DAD7CD;
+    font-weight: bold;
 }
 
+.title-section {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 32px;
+    background-color: #344E41;
+}
 .first-section {
     display: flex;
-    flex-direction: column  ;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0px;
@@ -68,6 +75,10 @@ a {
 .overview {
     background-color: #344E41;
     color: #DAD7CD;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+
+
 }
 .basic {
 
@@ -90,5 +101,7 @@ a {
 }
 
 #c-k-selfie {
-    width: 300px;
-}
+    width: 400px;
+    border-radius: 25px;
+    
+}   
