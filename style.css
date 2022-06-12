@@ -41,6 +41,21 @@ body {
     color: #DAD7CD;
 }
 
+.button {
+    display: flex;
+    background-color: #DAD7CD;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 8px;
+
+}
+
+#rsvp {
+    color: #344E41;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+}
+
 .links {
     display: flex;
     color: #344E41;
