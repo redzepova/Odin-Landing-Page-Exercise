@@ -13,6 +13,8 @@ body {
     margin: 0px;
     padding: 8px;
     justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 .logo {
@@ -70,6 +72,7 @@ a {
     margin: 0px;
     gap: 8px;
     background-color: #344E41;
+    padding-bottom: 32px;
 }
 
 .overview {
@@ -87,7 +90,8 @@ a {
     color: #344E41;
     font-family: 'Libre Baskerville', serif;
     font-size: 32px;
-    height: 100px;
+    padding-bottom: 32px;
+    padding-top: 32px;
    align-items: center;
 }
 
@@ -100,8 +104,9 @@ img {
     background-color: #DAD7CD;
     justify-content: space-evenly;
     color: #344E41;
-    height: 300px;
     align-items: stretch;
+    flex-wrap: wrap;
+    padding: 24px;
 }
 
 .photo {
@@ -116,6 +121,21 @@ img {
     text-align: center;
 }
 
+.quote {
+    display: flex;
+    background-color: #A3B18A;
+    color: #344E41;
+    flex-direction: column;
+    padding: 32px;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 32px;
+}
+
+#mindy {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    text-align: right;
+}
 .directions {
 
 }
