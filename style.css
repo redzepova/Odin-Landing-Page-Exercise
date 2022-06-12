@@ -151,16 +151,27 @@ img {
     font-size: 24px;
     text-align: right;
 }
+
+ul {
+    list-style: none;
+}
+
+.name {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.address {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
 .directions {
-
-}
-
-.brunch {
-
-}
-
-.footer {
-
+    display: flex;
+    background-color: #DAD7CD;
+    color: #344E41;
 }
 
 #c-k-selfie {
