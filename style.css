@@ -35,8 +35,8 @@ body {
 .title {
     font-family: 'Homemade Apple', cursive;
     font-size: 34px;
-    background-color: #DAD7CD;
-    color: #344E41;
+    background-color:#344E41;
+    color: #DAD7CD;
 }
 
 .links {
@@ -55,6 +55,20 @@ a {
     color: #DAD7CD;
 }
 
+.first-section {
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    gap: 8px;
+    background-color: #344E41;
+}
+
+.overview {
+    background-color: #344E41;
+    color: #DAD7CD;
+}
 .basic {
 
 }
@@ -73,4 +87,8 @@ a {
 
 .footer {
 
+}
+
+#c-k-selfie {
+    width: 300px;
 }
