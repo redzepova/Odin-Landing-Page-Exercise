@@ -81,11 +81,19 @@ a {
 
 }
 .basic {
+    display: flex;
+    background-color: #DAD7CD;
+    flex-direction: column;
+}
 
+img {
+    width: 200px;
 }
 
 .pictures {
-
+    display: flex;
+    background-color: #DAD7CD;
+    justify-content: space-evenly;
 }
 
 .directions {
